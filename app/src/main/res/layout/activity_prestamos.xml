@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tituloPrestamos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipos de Préstamos"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/prestamoPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo Personal: Ingreso entre 20,000 y 40,000"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/prestamoNegocio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo de Negocio: Ingreso entre 40,000 y 60,000"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/prestamoVivienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo de Vivienda: Ingreso entre 15,000 y 35,000"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/loremIpsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a lacus ut ipsum efficitur luctus. Aliquam erat volutpat. Maecenas quis pharetra eros. Integer fermentum, nulla et egestas feugiat, purus nisi aliquam dui, ut lacinia leo metus at dolor."
+        android:textSize="16sp"
+        android:paddingTop="16dp"/>
+</LinearLayout>

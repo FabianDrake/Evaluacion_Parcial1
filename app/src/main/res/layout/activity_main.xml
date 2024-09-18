@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/curpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CURP" />
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/apellidosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/domicilioEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domicilio" />
+
+    <EditText
+        android:id="@+id/ingresoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingreso Mensual"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/tipoPrestamoSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/validarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validar" />
+
+    <Button
+        android:id="@+id/limpiarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar" />
+</LinearLayout>
